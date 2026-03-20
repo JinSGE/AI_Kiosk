@@ -1,0 +1,247 @@
+{
+    "menus": [
+      {
+        "name": "아메리카노",
+        "categories": ["커피"],
+        "basePrice": 4500,
+        "description": "깊고 진한 에스프레소에 물을 더해 깔끔한 맛의 스탠다드 커피",
+        "imageUrl": "/images/menu/americano.jpg",
+        "options": {
+          "size": {
+            "레귤러": 0,
+            "라지": 500
+          },
+          "temperature": {
+            "핫": 0,
+            "아이스": 500
+          },
+          "shots": {
+            "1샷 추가": 500,
+            "2샷 추가": 1000
+          },
+          "syrup": {
+            "바닐라 시럽 추가": 500,
+            "헤이즐넛 시럽 추가": 500,
+            "카라멜 시럽 추가": 500
+          }
+        }
+      },
+      {
+        "name": "카페 라떼",
+        "categories": ["커피"],
+        "basePrice": 5000,  
+        "imageUrl": "/images/cafelatte.jpg",
+        "description": "진한 에스프레소와 부드러운 우유가 조화를 이루는 대표적인 라떼",
+        "options": {
+          "size": {
+            "레귤러": 0,
+            "라지": 500
+          },
+          "temperature": {
+            "핫": 0,
+            "아이스": 500
+          },
+          "shots": {
+            "1샷 추가": 500,
+            "2샷 추가": 1000
+          },
+          "syrup": {
+            "바닐라 시럽 추가": 500,
+            "헤이즐넛 시럽 추가": 500,
+            "카라멜 시럽 추가": 500
+          }
+        }
+      },
+      {
+        "name": "카페 모카",
+        "categories": ["커피"],
+        "basePrice": 5500,
+        "imageUrl": "/images/cafemocha.jpg",
+        "description": "진한 초콜릿과 에스프레소의 완벽한 조화, 달콤 쌉싸름한 맛",
+        "options": {
+          "size": {
+            "레귤러": 0,
+            "라지": 500
+          },
+          "temperature": {
+            "핫": 0,
+            "아이스": 500
+          },
+          "shots": {
+            "1샷 추가": 500,
+            "2샷 추가": 1000
+          },
+          "syrup": {
+            "바닐라 시럽 추가": 500,
+            "헤이즐넛 시럽 추가": 500,
+            "카라멜 시럽 추가": 500
+          }
+        }
+      },
+      {
+        "name": "바닐라 라떼",
+        "categories": ["커피"],
+        "basePrice": 5500,
+        "imageUrl": "/images/vanillalatte.jpg",
+        "description": "달콤한 바닐라 시럽이 추가된 크리미한 라떼",
+        "options": {
+          "size": {
+            "레귤러": 0,
+            "라지": 500
+          },
+          "temperature": {
+            "핫": 0,
+            "아이스": 500
+          },
+          "shots": {
+            "1샷 추가": 500,
+            "2샷 추가": 1000
+          },
+          "syrup": {
+            "바닐라 시럽 추가": 500,
+            "헤이즐넛 시럽 추가": 500,
+            "카라멜 시럽 추가": 500
+          }
+        }
+      },
+      {
+        "name": "카라멜 마끼아또",
+        "categories": ["커피"],
+        "imageUrl": "/images/caramelmacchiato.jpg",
+        "description": "바닐라 시럽과 카라멜 소스가 어우러진 달콤한 에스프레소 음료",
+        "basePrice": 5800,
+        "options": {
+          "size": {
+            "레귤러": 0,
+            "라지": 500
+          },
+          "temperature": {
+            "핫": 0,
+            "아이스": 500
+          },
+          "shots": {
+            "1샷 추가": 500,
+            "2샷 추가": 1000
+          },
+          "syrup": {
+            "바닐라 시럽 추가": 500,
+            "헤이즐넛 시럽 추가": 500,
+            "카라멜 시럽 추가": 500
+          }
+        }
+      },
+      {
+        "name": "초코 라떼",
+        "categories": ["커피"],
+        "imageUrl": "/images/chocolatte.jpg",
+        "description": "진한 초콜릿과 부드러운 우유가 만나 달콤한 맛의 음료",
+        "basePrice": 5000,
+        "options": {
+          "size": {
+            "레귤러": 0,
+            "라지": 500
+          },
+          "temperature": {
+            "핫": 0,
+            "아이스": 500
+          },
+          "shots": {
+            "1샷 추가": 500,
+            "2샷 추가": 1000
+          },
+          "syrup": {
+            "바닐라 시럽 추가": 500,
+            "헤이즐넛 시럽 추가": 500,
+            "카라멜 시럽 추가": 500
+          }
+        }
+      },
+      {
+        "name": "그린 라떼",
+        "categories": ["커피"],
+        "basePrice": 5000,
+        "imageUrl": "/images/greentealatte.jpg",
+        "description": "은은한 녹차 향과 부드러운 우유의 조화로운 맛",
+        "options": {
+          "size": {
+            "레귤러": 0,
+            "라지": 500
+          },
+          "temperature": {
+            "핫": 0,
+            "아이스": 500
+          },
+          "shots": {
+            "1샷 추가": 500,
+            "2샷 추가": 1000
+          },
+          "syrup": {
+            "바닐라 시럽 추가": 500,
+            "헤이즐넛 시럽 추가": 500,
+            "카라멜 시럽 추가": 500
+          }
+        }
+      },
+      {
+        "name": "복숭아 아이스 티",
+        "categories": ["티"],
+        "basePrice": 5200,
+        "imageUrl": "/images/peachicedtea.jpg",
+        "description": "향긋한 복숭아 향이 가득한 시원한 아이스티",
+        "options": {
+          "size": {
+            "레귤러": 0,
+            "라지": 500
+          }
+        }
+      },
+      {
+        "name": "허브 티",
+        "categories": ["티"],
+        "basePrice": 5000,
+        "imageUrl": "/images/herbtea.jpg",
+        "description": "다양한 허브의 은은한 향과 맛을 즐길 수 있는 전통 차",
+        "options": {
+          "size": {
+            "레귤러": 0,
+            "라지": 500
+          }
+        }
+      },
+      {
+        "name": "레몬 에이드",
+        "categories": ["에이드/주스"],
+        "basePrice": 5500,
+        "imageUrl": "/images/lemonade.jpg",
+        "description": "상큼한 레몬과 탄산의 청량함이 가득한 시원한 음료",
+        "options": {
+          "size": {
+            "레귤러": 0,
+            "라지": 500
+          }
+        }
+      }
+    ],
+    "quantities": {
+      "한 잔": 1,
+      "두 잔": 2,
+      "세 잔": 3,
+      "네 잔": 4,
+      "다섯 잔": 5,
+      "여섯 잔": 6,
+      "일곱 잔": 7,
+      "여덟 잔": 8,
+      "아홉 잔": 9,
+      "열 잔": 10
+    },
+    "categories": {
+      "커피": ["아메리카노", "카페 라떼", "카페 모카", "바닐라 라떼", "카라멜 마끼아또", "초코 라떼", "그린 라떼"],
+      "티": ["복숭아 아이스 티", "허브 티"],
+      "에이드/주스": ["레몬 에이드"]
+    },
+    "option_types": {
+      "커피": ["size", "temperature", "shots", "syrup"],
+      "티": ["size"],
+      "에이드/주스": ["size"]
+    }
+  }

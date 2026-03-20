@@ -1,0 +1,38 @@
+{
+    "name": "cafe-kiosk-backend",
+    "version": "1.0.0",
+    "description": "카페 키오스크 백엔드 서버",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "dev": "nodemon server.js",
+        "setup-admin": "node setup-admin.js",
+        "setup-menu": "node setup-menuItem.js",
+        "setup-order": "node setup-order.js"
+    },
+    "dependencies": {
+        "axios": "^1.9.0",
+        "bcrypt": "^5.1.1",
+        "bcryptjs": "^2.4.3",
+        "body-parser": "^2.2.0",
+        "cors": "^2.8.5",
+        "dotenv": "^16.5.0",
+        "express": "^4.21.2",
+        "form-data": "^4.0.2",
+        "jsonwebtoken": "^9.0.2",
+        "mongoose": "^8.14.1",
+        "mquery": "^5.0.0",
+        "react": "^19.1.0",
+        "react-dom": "^19.1.0",
+        "react-scripts": "^5.0.1",
+        "styled-components": "^6.1.17",
+        "web-vitals": "^4.2.4",
+        "ws": "^8.13.0"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.10"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}

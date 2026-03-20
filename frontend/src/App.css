@@ -1,0 +1,53 @@
+/* src/App.css */
+.app-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.store-background {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.cafe-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./images/cafe-background.jpg');
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+}
+
+.employee-wrapper {
+  position: relative;
+  z-index: 2;
+}
+
+.debug-info {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 5px 10px;
+  font-size: 12px;
+  border-radius: 4px;
+  z-index: 100;
+  display: none; /* 디버그 정보는 기본적으로 숨김, 필요시 block으로 변경 */
+}
+
+/* 모바일 최적화 */
+@media (max-width: 768px) {
+  .employee-wrapper {
+    transform: scale(0.8);
+  }
+}

@@ -1,0 +1,39 @@
+# Node/Python/React generated files
+node_modules/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+.next/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Model cache/audio - large, user-specific files
+AI-API/model_cache/
+AI-API/audio_output/
+AI-API/audio_input/
+AI-API/data/documents/
+AI-API/data/knowledge_base/
+AI-API/temp/
+
+# Huggingface model downloads
+huggingface model/

@@ -1,0 +1,61 @@
+# Python 바이트 코드
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 환경 설정
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# 로그 파일
+*.log
+
+# 모델 캐싱 디렉토리
+model_cache/
+cache/
+
+# 생성된 오디오 파일
+audio_output/
+audio_input/
+
+# 임시 파일
+tmp/
+temp/
+*.tmp
+*.temp
+
+# 데이터 및 지식 베이스 (대용량)
+data/documents/
+data/knowledge_base/
+
+# IDE 파일
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 운영체제 파일
+.DS_Store
+Thumbs.db
